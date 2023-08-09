@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" conten="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title> portfolio website</title>
+<link rel="stylesheet" href="code.css">
+<script src="https://kit.fontawesome.com/45de01eb05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div style="width: 100%;">
+       <div style="position: fixed; width: 50%; height: 900px; float: left;">
+        <button onclick="darkMode()"><i class="fa-solid fa-moon"></i></button>
+        <button onclick="lightMode()"><i class="fa-solid fa-sun"></i> </button>
+        <center>
+            <img src="rinku.jpg" alt="abcd" align="center">
+            <div class="fade-in-text">
+                <h1>RINKU CHAUHAN</h1>
+              </div>
+            <div>
+            <a href="#home">Home</a><br>
+            <a href="#about">About</a><br>
+            <a href="#skills">Skills</a><br>
+            <a href="#education">Education</a><br>
+            <a href="#contact">Contact</a>
+            </div>
+        </center>
+        </div>
+            <div style="width: 50%; height: 900px; float: right;">
+            <center>
+                <div  class="column"><p id="home">
+                    <main class="container">
+                        <h1>Hello I'm</h1>
+                        <section class="animation">
+                          <div class="first"><div>RINKU CHAUHAN</div></div>
+                          <div class="second"><div>Web Developer</div></div>
+                          <div class="third"><div>Ambitious</div></div>
+                        </section>
+                      </main>
+                    I love creating websites layout/user interfaces by using standard HTMl/CSS practices. 
+                </p></div></center>
+                <div class="column"><p id="about">
+                    <center><h2><b>About me:</b></h2>
+                    <p>I love sketching, put expression of faces on paper. I Express my thoughts by drawing. I used my creative side to design and my logical side to code. when I'm away from my screen you'll find me sketching or just doodle something.</p>
+                    <a href="https://drive.google.com/file/d/1yXVSXYmSQeUhUyCWwrzlggLsMpxip2T5/view?usp=drivesdk">
+                        <button>RESUME</button>
+                    </a>
+                </p></div></center>
+                <div class="column"> <p id="skills">
+                    <center><h2><b>MY SKILLS:</b></h2></center>
+                    <ul>
+                        <li>WEB DEVELOPMENT: HTML , CSS & Javascript</li>
+                        <li>PROGRAMMING LANGUAGES:  JAVA & Python</li>
+                        <li>GOOD COMMUNICATOR</li>
+                        <li>COMPUTER LITERACY</li>
+                        <li>PROJECT MANAGEMENT TOOLS</li>
+                        <li>GOOD LEARNER</li>
+                        <li>TIME MANAGEMENT SKILLS</li>
+                    </ul>
+                </p></div>
+                <center><div class="column"><p id="education"></p>
+                    <h2><b>MY EDUCATION:</b></h2>
+                    CHANDIGARH GROUP OF COLLEGES, JHANJHERI<br>
+                    affiliated from Punjab Technical  University<br>
+                    <b>Master of Computer Application</b><br>
+                    2022-2024<br><br>
+                    DEV SAMAJ COLLAGE FOR WOMEN,CHANDIGARH,SEC-45<br>
+                    affiliated from Panjab University<br>
+                    <b>Bachelor of Computer Application</b><br>
+                    2019-2022<br><br>
+                    GOVERNMENT  MODEL SENIOR SECONDARY SCHOOL, SECTOR-33, CHANDIGARH<br>
+                    affliated from CBSE board<br>
+                    <b>12th (Arts)</b><br>
+                    2017-2019<br><br>
+                    AIR FORCE 12WING SCHOOL,CHANDIGARH<br>
+                    affliated from CBSE board<br>
+                    <b>Matriculation</b><br>
+                    2016-2017<br><br>
+                </p></div></center>
+                <center><div class="column"><p id="contact">
+                    <h2><b>Let's Get in Touch</b></h2>
+                    <i class="fa-solid fa-location-dot"></i> ZIRAKPUR, PUNJAB<br>
+                    <i class="fa-solid fa-phone"></i> +91 7814558996<br>
+                    <i class="fa-sharp fa-solid fa-envelope"></i> rinkuchauhan8968@gmail.com<br>
+                    <i class="fa-brands fa-linkedin"></i> Rinku Chauhan </a><br>
+                    <i class="fa-brands fa-whatsapp"></i> 7814558996<br>
+                    <i class="fa-brands fa-instagram"></i> rinkuchauhan_02<br>
+                </p></div>
+            </center>
+            </div>
+    </div>
+<script>
+    function darkMode() {
+        let element = document.body;
+        let content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+    }
+    function lightMode() {
+        let element = document.body;
+        let content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+    }
+</script>
+</body>
+</html>
+
